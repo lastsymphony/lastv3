@@ -209,8 +209,7 @@ conn.handler = async function (m) {
 
         m.isCommand = true
         let xp = 'exp' in plugin ? parseInt(plugin.exp) : 1000 // XP Earning per command
-        if (xp >999 ) m.reply('_ADITYA JATAYU☻_','```LASTSYMPHONY```')
-        m.reply('onii chan Baka') // Hehehe
+        if (xp >999 ) m.reply('_ADITYA JATAYU☻_','```LASTSYMPHONY```')// Hehehe
         else m.exp += xp
         if (!isPrems && global.DATABASE._data.users[m.sender].limit < m.limit * 1 && plugin.limit) {
           this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy* atau bisa juga beli Limit di *#premium*`, m)
