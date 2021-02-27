@@ -4,15 +4,15 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('Lightweight\nSYMPHONY Bot', {
+CFonts.say('ADITYA JATAYU\nSYMPHONY BOT', {
   font: 'chrome',
   align: 'center',
-  gradient: ['red', 'cyan']
+  gradient: ['cyan', 'cyan']
 })
 CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
   font: 'console',
   align: 'center',
-  gradient: ['red', 'magenta']
+  gradient: ['cyan', 'cyan']
 })
 
 function start(file) {
